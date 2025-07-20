@@ -15,5 +15,3 @@ final_np = np.array(final)
 final_img = cv2.cvtColor(final_np, cv2.COLOR_RGB2BGR)
 cv2.imshow("Image with white background", final_img)
 cv2.waitKey(0)
-
-
