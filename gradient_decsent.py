@@ -1,3 +1,18 @@
+# Gradient Descent
+
+'''
+Gradient descent is an algorithm to minimize the cost function. It works by reducing the 
+paramter with learning_rate * gradient after every single step where the gradient is the slope of the cost function.
+
+In case when cost function is dependent of more than one parameter, each parameter is minimized 
+and their gradient at each step is the partial derivative with respect to the parameter.
+Gradient descent algorithm also depends on the initial or starting point as they might 
+lead to different local minima.
+
+The learning rate controls how big each step is. If it's too large, the algorithm may overshoot 
+the minimum and if too small, convergence will be slow.
+'''
+
 # We are taking the given function as cost function and computing the gradient decsent for it
 
 import numpy as np
